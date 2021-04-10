@@ -19,7 +19,7 @@ WiFiClientSecure client; //--> Create a WiFiClientSecure object.
 long now = millis();
 long lastMeasure = 0;
 
-String GAS_ID = "YOUR_SPREADSHEET_SCRIPT_ID"; //--> spreadsheet *SCRIPT* ID
+String GAS_ID = "YOUR_SPREADSHEET_SCRIPT_ID"; //--> spreadsheet *SCRIPT* ID //ใส่ Script ID ของ Spreadsheet
 
 //============================================ void setup
 void setup() {
